@@ -1,0 +1,33 @@
+
+h1{
+  
+   font-size: 25px;
+    margin-left: 400px;
+    padding: 240px;
+    color: rgb(12, 12, 82);
+    text-align: center;
+
+
+}
+.container{
+    display: flex;
+}
+
+    
+.back{
+   margin-top: -600px;
+   margin-right: 0px;
+}
+.logo{
+
+    margin-left: 30px;
+    margin-top: -800px;
+    align-items: center;
+    padding: 240px;
+}
+.from{
+
+    align-items: center;
+    margin-right: 10px;
+   
+}
