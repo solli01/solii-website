@@ -1,105 +1,162 @@
 *{
-
     margin: 0;
-
-    padding: 0;
-
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
-
-.container{
-
+body{
+    min-height: 1000px;
+    background-color: #f0e7e7;
     display: flex;
-
-    overflow: hidden;
-
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
 }
-
-.box{
-
-background: #455B86;
-
-border-radius: 10px;
-
-width: 365px;
-
-height: 714px;
-
-margin-left: 1350px;
-
-margin-top: 143px;
-
+.container{
+    font-size: 20px;
+    min-width: 300px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1350px;
+    margin-top: 100px;
+    background: #455B86;
+    border-radius: 7px;
 }
-
-.box1{
-
-    
-
-background: #EDF7FF;
-
-border-radius: 10px;
-
-width: 365px;
-
-height: 665px;
-
-
-margin-top: 90px;
-
-}
-h3{
+h1{
    
-
+margin-left: 120px;
+color: aliceblue;
+padding: 20px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 23px;
-margin-top: 7px;
-margin-left: 100px;
 line-height: 28px;
 letter-spacing: 0.1em;
-color: #FFFFFF;
+
+}
+.body{
+    flex: 1;
+    color: #f8f8f8;
+    background: #eff2f5;
+    padding: 20px 
+}
+.message{
+   
+    background-color: white;
+    padding: 10px;
+    color:white;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: black
+    
+
 
 
 }
-h4{
+.message1{
+   
+    background-color: white;
+    padding: 10px;
+    color:white;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: black
+    
 
+
+
+}
+h2{
+   
+margin-left: 190px;
+color: white;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-margin-left: 100px;
-
 font-size: 15px;
-
 line-height: 18px;
-letter-spacing: 0.1em;
-
-color: #FFFFFF;
-
-
-
-
+letter-spacing: 0.3em;
+padding: 0px;
+margin-top: 0px;
 
 
 }
-h5{
-    color: #455B86;
+.user_message{
+    margin-left: auto;
+    background-color: white;
+    color: black;
 }
-.border{
-    max-width: 93px; 
-height: 20px;
+.footer form{
+    display: flex;
+    background-image: url(salima.png);
+    background-repeat: no-repeat;
+
+    background-color: rgb(240, 236, 236);
+
+}
+.footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    max-width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    
     background: #FFFFFF;
+    
+    box-sizing: border-box;
+    border-radius: 30px;
+   margin:15px ;
+    background: #f0f1f1;
+  
+}
+.message-input{
+    font-size: 10px;
+    position: absolute;
     border: 1px solid #E5E5E5;
+   border-radius: 20px;
+
+
+}
+.smile{
+    position: absolute;
+    width:22px ;
+    height: 22px;
+    left: 22px;
+}
+
+.profile-picture{
+    max-width: 50px;
+   max-height: 50px;
+   margin-top: 80px;
+    border-radius: 50%;
+    margin-left: 300px;
+    
+    
+    
+    }
+h5{
+    max-width: 70px;
+    max-height: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+margin-left: 170px;
+    font-size: 10px;
+    line-height: 15px;
+    
+    color: #455B86;
+
+    background: #FFFFFF;
+    border: 5px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 10px;
-
-}
-.profile-picture{
-width: 32px;
-height: 32px;
-border-radius: 50%;
-margin-left: 100px;
-
-
 }
 
 
