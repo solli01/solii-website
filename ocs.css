@@ -33,6 +33,14 @@ h2 {
     color: #1D1F43;
 }
 
+.info {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-left: 460px;
+    margin-top: px;
+}
+
 .logo {
     margin-right: 8%;
     margin-left: 8%;
@@ -105,4 +113,140 @@ h2 {
     background: #b4c0ca;
     margin-right: 15%;
     border-radius: 15px;
+}
+
+.time-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.week {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.w1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    width: 96px;
+    height: 27px;
+    margin-left: 37px;
+    margin-top: 22px;
+}
+
+.w2 {
+
+    width: 82px;
+    height: 44px;
+    margin-left: 350px;
+    background: #FFFFFF;
+    border: 1px solid #637B92;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.w3 {
+    width: 164px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #637B92;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.w4 {
+    width: 187px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #637B92;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.w5 {
+    width: 133px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #637B92;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.w6 {
+    width: 120px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #637B92;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+h1 {
+    height: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 0.1em;
+    margin-left: 20px;
+    color: #637B92;
+}
+
+.blue {
+
+    width: 725px;
+    height: 22px;
+    margin-top: -20px;
+    margin-left: 465px;
+
+    background: #637B92;
+    border-radius: 6px;
+}
+
+.blue1 {
+    margin-top: 21px;
+    width: 770px;
+    height: 34px;
+    margin-left: 400px;
+
+
+    background: #E5E9ED;
+    border-radius: 10px;
+}
+
+h6 {
+
+    width: 6px;
+    height: 18px;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 15px;
+
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+p {
+
+ 
+    height: 18px;
+  margin-left: 200px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+  
+    letter-spacing: 0.1em;
+    
+    color: #000000;
 }
