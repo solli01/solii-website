@@ -1,3 +1,9 @@
+
+   * {
+    margin: 5px;
+    padding: 0;
+}
+
 header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -21,22 +27,21 @@ h1 {
 }
 
 h2 {
-    margin-top: 148px;
-    margin-left: 40px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 35px;
-    letter-spacing: 0.1em;
-    color: #1D1F43;
+    width: 501px;
+height: 45px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 35px;
+letter-spacing: 0.1em;
+color: #1D1F43; 
 }
 
 .info {
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    margin-left: 350px;
     margin-top: 10px;
 }
 
@@ -117,6 +122,7 @@ h2 {
 .time-table {
     display: flex;
     flex-direction: column;
+    margin: 5px;
 }
 
 .week {
@@ -135,15 +141,12 @@ h2 {
     color: #FFFFFF;
     width: 96px;
     height: 27px;
-    margin-left: 37px;
-    margin-top: 22px;
 }
 
 .w2 {
 
     width: 82px;
     height: 44px;
-    margin-left: 350px;
     background: #FFFFFF;
     border: 1px solid #637B92;
     box-sizing: border-box;
@@ -201,69 +204,42 @@ h1 {
 
     width: 725px;
     height: 22px;
-    margin-top: -20px;
-    margin-left: 465px;
-
+    margin-left: 20px;
     background: #637B92;
     border-radius: 6px;
 }
 
-.blue1 {
-    margin-top: 21px;
+.blue-line {
+    display: flex;
+    justify-content: space-evenly;
     width: 770px;
     height: 34px;
-    margin-left: 400px;
-
-
     background: #E5E9ED;
-    border-radius: 10px;
+   
 }
 
-.blue2 {
-    margin-top: 21px;
+.white-line{
+    display: flex;
+    justify-content: space-evenly;
     width: 770px;
     height: 34px;
-    margin-left: 400px;
-
+    margin-left: 10px;
     background: #F2F4F6;
-    border-radius: 10px;
+   
 
 }
 
-.blue3 {
-    margin-top: 21px;
-    width: 770px;
-    height: 34px;
-    margin-left: 400px;
 
-    background: #E4E8EC;
-    border-radius: 10px;
-
-}
-
-.blue4 {
-    margin-top: 21px;
-    width: 770px;
-    height: 34px;
-    margin-left: 400px;
-
-    background: #F2F4F6;
-    border-radius: 10px;
-
-}
 
 h6 {
 
     width: 6px;
     height: 18px;
-    margin-left: 120px;
     margin-top: 10px;
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 15px;
-
     letter-spacing: 0.1em;
-
     color: #000000;
 }
 
@@ -271,8 +247,6 @@ p {
 
 
     height: 18px;
-    margin-left: 230px;
-    margin-top: -50px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -284,8 +258,6 @@ p {
 h3 {
     width: 40px;
     height: 18px;
-    margin-left: 390px;
-    margin-top: -35px;
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 15px;
@@ -297,49 +269,53 @@ h3 {
 h4 {
     width: 40px;
     height: 18px;
-    margin-left: 550px;
-    margin-top: -35px;
-
     font-family: 'Montserrat';
     font-style: normal;
-
     font-size: 15px;
-
     letter-spacing: 0.1em;
-
     color: #000000
 }
 
 h5 {
     width: 37px;
     height: 168px;
-    margin-left: 690px;
-    margin-top: -35px;
+  
 }
 
 .back {
-    margin-top: -32px;
-    margin-left: 1200px;
+
     width: 86px;
     height: 32px;
     border: 1px solid black;
     box-sizing: border-box;
     border-radius: 8px;
+    margin-left: 20px;
+  
 }
 
 span {
 
     height: 16px;
-    margin-top: 30px;
-    margin-left: 15px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
-
-
     letter-spacing: 0.1em;
-
     color: #000000;
+}
+
+.vetka{
+    width: 100.84px;
+height: 34px;
+
+background: red;
+border-radius: 5px;
+}
+@media only screen and (max-width: 900px) {
+    .back {
+        display: none;
+    }
+    .mua {
+        font-size: 20px;
+    }
 }
