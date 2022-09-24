@@ -8,19 +8,32 @@
     text-transform: capitalize;
 }
 
+.container {
+    height: 50px;
+    background-color: #111131;
+
+}
+
+.container h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 29px;
+    text-align: center;
+    color: #ABABFA;
+}
 
 section {
+
     min-height: 100vh;
     padding: 1rem 10%;
     padding-top: 8rem;
     display: flex;
-justify-content: space-around; 
+    justify-content: space-around;
 }
 
 header {
-
-    top: 0;
-    left: 0;
     width: 100%;
     background: whitesmoke;
     padding: 1rem;
@@ -43,7 +56,7 @@ header .navigate ul li {
 
 /*----------------section-------------*/
 .id-home {
-   display: flex;
+    display: flex;
     height: 560px;
     border-radius: 0px;
     background-size: cover;
@@ -51,9 +64,10 @@ header .navigate ul li {
 
 }
 
-  
+
 
 .home h1 {
+    padding: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -72,7 +86,7 @@ header .navigate ul li {
 }
 
 .home p {
-
+    padding: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -84,6 +98,7 @@ header .navigate ul li {
 }
 
 .home h2 {
+    padding: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -158,26 +173,35 @@ header .navigate ul li {
     height: 27rem;
     flex: 1 1 20rem;
     padding: 1.2rem;
-    margin: 1.5rem;
     border-radius: 1rem;
-    box-shadow: white;
-    text-align: center;
+
+
 }
 
 .tech-product .inner-tech-col h2 {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     color: darkblue;
-    font-size: 1.6rem;
     letter-spacing: .1rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.4px;
 }
 
 .tech-product .inner-tech-col h3 {
-    color: gray;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #868297;
+    margin: 5px;
+    box-sizing: border-box;
+    text-transform: capitalize;
 }
 
 .tech-product .inner-tech-col p {
+    margin: 5px;
     color: gray;
     font-size: 1rem;
     font-weight: 500;
@@ -197,12 +221,12 @@ header .navigate ul li {
     background: #1B1B4D;
     border: 1px solid #8989F8;
     border-radius: 4px;
-    box-sizing: border-box; 
-      width: 534px;
+    box-sizing: border-box;
+    width: 534px;
 }
 
 .subs {
- 
+
     background: #5C5CFF;
     border-radius: 4px;
 }
@@ -228,17 +252,18 @@ header .navigate ul li {
     letter-spacing: 1px;
     color: #FFFFFF;
 }
-.tech-list h1{
+
+.tech-list h1 {
     margin-left: 50px;
-margin-bottom: 140px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 13px;
-line-height: 18px;
-letter-spacing: 1.4px;
-text-transform: uppercase;
-color: #5C5CFF;
+    margin-bottom: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #5C5CFF;
 }
 
 @media(max-width:768px) {}
@@ -263,7 +288,6 @@ color: #5C5CFF;
 .tech-contact-col {
     margin: 2rem;
     flex: 1 1 20rem;
-    text-align: center;
 }
 
 .tech-contact-col .images {
@@ -305,4 +329,17 @@ color: #5C5CFF;
     padding: 3rem;
     text-align: center;
     background: gray;
+}
+
+.finish {
+
+    height: 500px;
+    background: #1B1B4D;
+}
+
+.subs2 {
+    box-sizing: border-box;
+    background: #1B1B4D;
+    border: 1px solid #8989F8;
+    border-radius: 4px;
 }
